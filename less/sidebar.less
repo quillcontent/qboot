@@ -4,14 +4,19 @@
     min-height: 100%;
     margin-left: -15px;
     overflow: hidden;
-    li {
-        a {
+    .nav {
+        li {
+            margin-left: -15px;
+            margin-right: -15px;
             padding: 20px 28px;
-        }
-        &.active {
             a {
-                color: darken(@gun-metal, 15%)!important;
-                background-color: lighten(@gun-metal, 20%)!important;
+                color: white;
+            }
+            &.active {
+                a {
+                    color: darken(@gun-metal, 15%)!important;
+                    background-color: lighten(@gun-metal, 20%)!important;
+                }
             }
         }
     }
