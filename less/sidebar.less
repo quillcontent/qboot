@@ -1,0 +1,19 @@
+@import 'colors';
+.sidebar {
+    background-color: @gun-metal;
+    height: 100%;
+    min-height: 100%;
+    margin-left: -15px;
+    overflow: hidden;
+    li {
+        a {
+            padding: 20px 28px;
+        }
+        &.active {
+            a {
+                color: darken(@gun-metal, 15%)!important;
+                background-color: lighten(@gun-metal, 20%)!important;
+            }
+        }
+    }
+}

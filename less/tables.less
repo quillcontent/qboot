@@ -1,0 +1,25 @@
+.table {
+  margin-bottom: 0;
+  thead > tr > th {
+    border: none;
+    font-weight: 200;
+    padding: 0px 15px;
+    i[class*='fa-chevron'] {
+      cursor: pointer;
+      font-size: 12px;
+      margin-top: -2px;
+      vertical-align: middle;
+    }
+  }
+  tbody > tr {
+    td {
+      padding: 20px 15px;
+    }
+    &:first-child {
+      border: none;
+      td {
+        border: none;
+      }
+    }
+  }
+}

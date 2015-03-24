@@ -1,0 +1,81 @@
+html
+	head
+		title QBoot		
+		link(rel="stylesheet" type="text/css" href="/less/qboot.css")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.1/iscroll-min.js")
+	body
+		.container-fluid
+			.sidebar.col-sm-2
+				ul.nav
+					li 
+						a Typography
+					li.active
+						a Buttons
+					li
+						a Forms
+					li
+						a Tables
+
+			.content.col-sm-10
+				.scroll
+					.page-header
+						h1 QBoot
+
+					section
+						h1 Typography
+						h1 Header 1
+						h2 Header 2
+						h3 Header 3
+						h4 Header 4
+						p.
+							Bacon ipsum dolor amet tempor ribeye nostrud adipisicing short loin quis commodo short ribs ex mollit rump brisket sed ipsum. Deserunt pork belly nulla, pork bacon shankle dolore fatback pariatur. Reprehenderit mollit consequat id. Boudin sed drumstick, laboris fugiat strip steak flank dolore ipsum venison duis capicola veniam.
+						p.
+							Lorem <i>aliqua enim, boudin veniam corned beef pork belly salami.</i> Labore spare ribs ut tenderloin meatloaf pork loin prosciutto cow chicken excepteur pig fatback exercitation. Non officia excepteur t-bone tenderloin irure tail dolor nostrud. Turducken filet mignon magna sausage occaecat. Dolore in et reprehenderit dolor in cupim aliquip.
+						p.
+							Pariatur aliqua mollit, kielbasa magna biltong jowl excepteur rump hamburger ut flank boudin est. Pork fatback ut fugiat pork belly porchetta biltong elit beef ribs et excepteur laborum sausage kevin. In est nostrud pork chop, porchetta jowl ut doner dolor pancetta meatball dolore. Pork magna ipsum adipisicing ham hock sed est pancetta tempor ad deserunt chicken et nisi. Doner quis adipisicing, frankfurter salami duis commodo ham hock cupim dolore do pork chop short loin. Officia doner chuck exercitation, pork chop sunt reprehenderit non ipsum dolore ex enim shankle eu.
+
+					section
+						h1 Buttons
+						.btn-row
+							a.btn.btn-default Default
+							a.btn.btn-primary Primary
+							a.btn.btn-warning Warning
+							a.btn.btn-danger Danger
+
+					section.clearfix
+						h1 Forms
+						form.col-sm-6
+							.form-group.has-error
+								label.control-label Email address
+								input.form-control
+							.form-group
+								label.control-label Password
+								input.form-control
+							input.btn.btn-primary(type="submit")
+					section
+						h1 Tables
+
+						table.table
+							thead
+								tr
+									th First name
+									th Last name
+							tbody
+								tr
+									td Bob
+									td Jenny
+								tr
+									td Chris
+									td Smith
+
+			script.
+				window.onload = function() {
+					console.log('meep');
+					setTimeout(function(){
+						//- window.myScroll = new IScroll('.content', {
+						//- 	mouseWheel: true,
+						//- 	scrollbars: true
+						//- });
+					}, 300);
+		
+				};
