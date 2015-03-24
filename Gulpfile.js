@@ -11,7 +11,7 @@ gulp.task('default', ['less'], function(){
 });
 
 gulp.task('less', function() {
-    return gulp.src(paths.styles)
+    return gulp.src('less/qboot.less')
         .pipe(less({
             paths: [path.join(__dirname, 'less', 'includes')]
         }))
