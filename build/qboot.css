@@ -3870,7 +3870,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #7c96ad;
+  background-color: #eeeeee;
 }
 .nav > li.disabled > a {
   color: #777777;
@@ -3885,7 +3885,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #7c96ad;
+  background-color: #eeeeee;
   border-color: #008c85;
 }
 .nav .nav-divider {
@@ -3970,7 +3970,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
 }
 .nav-pills > li > a {
-  border-radius: 2px;
+  border-radius: 0px;
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -6547,8 +6547,19 @@ button.close {
     display: none !important;
   }
 }
-input {
+input,
+select,
+textarea {
   box-shadow: none!important;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-border-radius: 1px;
+  background-repeat: no-repeat;
+  background-position: 95% 49%;
+  background-size: 22%;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAAgCAYAAACowdDWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMxJREFUeNrc1f0JhDAMh+F4EziCI7jKbeQmjuIIuoFu4G1wRgwiIuJHmya/wNvSPx8KLdEyOVdzf7BGrhIjNYDAtYyXkmsJeD6CJHTkgI7MZO+5Avkm5/lyP1Bjtz2U8uQivaytfI+ECj0EIkFPgQjQS0DP0FtAj9BHQE/QV0AP0CBAy9CgQIvQKEBL0KhAC1AVYEqoKjAFNAlQE5oUqAE1AYwJNQWMATUJDAk1DQwBdQF8A3UFfAJ1CbwDdQ28AoUAbqH9DthoACcBBgCnvUTSmA3logAAAABJRU5ErkJggg==') !important;
 }
 @font-face {
   font-family: "Akkurat-Light";
@@ -6597,19 +6608,20 @@ i {
   margin-left: -15px;
   overflow: hidden;
 }
-.sidebar li a {
-  padding: 20px 28px;
-}
-.sidebar li.active a {
-  color: #6c89a4 !important;
-  background-color: #dae1e8 !important;
-}
-.nav li {
+.sidebar .nav li {
   margin-left: -15px;
   margin-right: -15px;
 }
-.nav li a {
-  color: white!important;
+.sidebar .nav li a {
+  padding: 20px 28px;
+  color: white;
+}
+.sidebar .nav li:hover a {
+  background-color: #7c96ad;
+}
+.sidebar .nav li.active a {
+  color: #6c89a4 !important;
+  background-color: #dae1e8 !important;
 }
 .btn-row .btn {
   border-radius: 1px;

@@ -51,6 +51,18 @@ html
 							.form-group
 								label.control-label Password
 								input.form-control
+							.form-group
+								label.control-label title
+									select.form-control
+										option Mr
+										option Dr
+										option Miss
+										option Mrs
+										option Ms
+										option Sir
+							.form-group
+								label.control-label Some extended nonsense
+								textarea.form-control
 							input.btn.btn-primary(type="submit")
 					section
 						h1 Tables
@@ -68,14 +80,4 @@ html
 									td Chris
 									td Smith
 
-			script.
-				window.onload = function() {
-					console.log('meep');
-					setTimeout(function(){
-						//- window.myScroll = new IScroll('.content', {
-						//- 	mouseWheel: true,
-						//- 	scrollbars: true
-						//- });
-					}, 300);
-		
-				};
+
