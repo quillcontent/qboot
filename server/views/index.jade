@@ -2,83 +2,107 @@ html
 	head
 		title QBoot		
 		link(rel="stylesheet" type="text/css" href="/less/qboot.css")
+		link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
 		script(src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.1/iscroll-min.js")
 	body
 		.container-fluid
-			.sidebar.col-sm-2
-				img.logo(src="https://s3-eu-west-1.amazonaws.com/quill-platform-assets/logowithlines.png")
-				ul.nav
-					li 
-						a Typography
-					li.active
-						a Buttons
-					li
-						a Forms
-					li
-						a Tables
+			.row
+				.sidebar.col-sm-2
+					a(href="#")
+						img.logo(src="https://s3-eu-west-1.amazonaws.com/quill-platform-assets/logowithlines.png")
+					ul.nav.nav-pills.nav-stacked
+						li 
+							a Typography
+						li.active
+							a Buttons
+						li
+							a Forms
+						li
+							a Tables
+					.user-details
+						div(style="min-height:50px;margin-bottom:1em;")
+							.avatar-and-name
+								img.avatar(src="http://i.imgur.com/WxrMakT.jpg")
+								.name Marnie Dog
+						nav-wrapper
+							ul.nav.nav-pills.nav-stacked
+								li
+									a
+										i.fa.fa-cog
+										&nbsp; 
+										= 'Settings'
+								li
+									a
+										i.fa.fa-sign-out
+										&nbsp;
+										= 'Logout'
 
-			.content.col-sm-10
-				.scroll
-					.page-header
-						h1 QBoot
 
-					section
-						h1 Typography
-						h1 Header 1
-						h2 Header 2
-						h3 Header 3
-						h4 Header 4
-						p.
-							Bacon ipsum dolor amet tempor ribeye nostrud adipisicing short loin quis commodo short ribs ex mollit rump brisket sed ipsum. Deserunt pork belly nulla, pork bacon shankle dolore fatback pariatur. Reprehenderit mollit consequat id. Boudin sed drumstick, laboris fugiat strip steak flank dolore ipsum venison duis capicola veniam.
-						p.
-							Lorem <i>aliqua enim, boudin veniam corned beef pork belly salami.</i> Labore spare ribs ut tenderloin meatloaf pork loin prosciutto cow chicken excepteur pig fatback exercitation. Non officia excepteur t-bone tenderloin irure tail dolor nostrud. Turducken filet mignon magna sausage occaecat. Dolore in et reprehenderit dolor in cupim aliquip.
-						p.
-							Pariatur aliqua mollit, kielbasa magna biltong jowl excepteur rump hamburger ut flank boudin est. Pork fatback ut fugiat pork belly porchetta biltong elit beef ribs et excepteur laborum sausage kevin. In est nostrud pork chop, porchetta jowl ut doner dolor pancetta meatball dolore. Pork magna ipsum adipisicing ham hock sed est pancetta tempor ad deserunt chicken et nisi. Doner quis adipisicing, frankfurter salami duis commodo ham hock cupim dolore do pork chop short loin. Officia doner chuck exercitation, pork chop sunt reprehenderit non ipsum dolore ex enim shankle eu.
 
-					section
-						h1 Buttons
-						.btn-row
-							a.btn.btn-default Default
-							a.btn.btn-primary Primary
-							a.btn.btn-warning Warning
-							a.btn.btn-danger Danger
 
-					section.clearfix
-						h1 Forms
-						form.col-sm-6
-							.form-group.has-error
-								label.control-label Email address
-								input.form-control
-							.form-group
-								label.control-label Password
-								input.form-control
-							.form-group
-								label.control-label title
-									select.form-control
-										option Mr
-										option Dr
-										option Miss
-										option Mrs
-										option Ms
-										option Sir
-							.form-group
-								label.control-label Some extended nonsense
-								textarea.form-control
-							input.btn.btn-primary(type="submit")
-					section
-						h1 Tables
 
-						table.table
-							thead
-								tr
-									th First name
-									th Last name
-							tbody
-								tr
-									td Bob
-									td Jenny
-								tr
-									td Chris
-									td Smith
+				.content.col-sm-10
+					.scroll
+						.page-header
+							h1 QBoot
+
+						section
+							h1 Typography
+							h1 Header 1
+							h2 Header 2
+							h3 Header 3
+							h4 Header 4
+							p.
+								Bacon ipsum dolor amet tempor ribeye nostrud adipisicing short loin quis commodo short ribs ex mollit rump brisket sed ipsum. Deserunt pork belly nulla, pork bacon shankle dolore fatback pariatur. Reprehenderit mollit consequat id. Boudin sed drumstick, laboris fugiat strip steak flank dolore ipsum venison duis capicola veniam.
+							p.
+								Lorem <i>aliqua enim, boudin veniam corned beef pork belly salami.</i> Labore spare ribs ut tenderloin meatloaf pork loin prosciutto cow chicken excepteur pig fatback exercitation. Non officia excepteur t-bone tenderloin irure tail dolor nostrud. Turducken filet mignon magna sausage occaecat. Dolore in et reprehenderit dolor in cupim aliquip.
+							p.
+								Pariatur aliqua mollit, kielbasa magna biltong jowl excepteur rump hamburger ut flank boudin est. Pork fatback ut fugiat pork belly porchetta biltong elit beef ribs et excepteur laborum sausage kevin. In est nostrud pork chop, porchetta jowl ut doner dolor pancetta meatball dolore. Pork magna ipsum adipisicing ham hock sed est pancetta tempor ad deserunt chicken et nisi. Doner quis adipisicing, frankfurter salami duis commodo ham hock cupim dolore do pork chop short loin. Officia doner chuck exercitation, pork chop sunt reprehenderit non ipsum dolore ex enim shankle eu.
+
+						section
+							h1 Buttons
+							.btn-row
+								a.btn.btn-default Default
+								a.btn.btn-primary Primary
+								a.btn.btn-warning Warning
+								a.btn.btn-danger Danger
+
+						section.clearfix
+							h1 Forms
+							form.col-sm-6
+								.form-group.has-error
+									label.control-label Email address
+									input.form-control
+								.form-group
+									label.control-label Password
+									input.form-control
+								.form-group
+									label.control-label title
+										select.form-control
+											option Mr
+											option Dr
+											option Miss
+											option Mrs
+											option Ms
+											option Sir
+								.form-group
+									label.control-label Some extended nonsense
+									textarea.form-control
+								input.btn.btn-primary(type="submit")
+						section
+							h1 Tables
+
+							table.table
+								thead
+									tr
+										th First name
+										th Last name
+								tbody
+									tr
+										td Bob
+										td Jenny
+									tr
+										td Chris
+										td Smith
 
 

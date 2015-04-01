@@ -6561,6 +6561,9 @@ select {
   background-size: 10px;
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAAgCAYAAACowdDWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMxJREFUeNrc1f0JhDAMh+F4EziCI7jKbeQmjuIIuoFu4G1wRgwiIuJHmya/wNvSPx8KLdEyOVdzf7BGrhIjNYDAtYyXkmsJeD6CJHTkgI7MZO+5Avkm5/lyP1Bjtz2U8uQivaytfI+ECj0EIkFPgQjQS0DP0FtAj9BHQE/QV0AP0CBAy9CgQIvQKEBL0KhAC1AVYEqoKjAFNAlQE5oUqAE1AYwJNQWMATUJDAk1DQwBdQF8A3UFfAJ1CbwDdQ28AoUAbqH9DthoACcBBgCnvUTSmA3logAAAABJRU5ErkJggg==') !important;
 }
+.avatar {
+  border-radius: 1000px;
+}
 @font-face {
   font-family: "Akkurat-Light";
   src: url("https://s3-eu-west-1.amazonaws.com/quill-platform-assets/lineto-akkurat-light.eot");
@@ -6614,20 +6617,88 @@ i {
   margin-top: -74px;
   margin-left: -30px;
 }
-.sidebar .nav li {
-  margin-left: -15px;
+.sidebar .nav {
+  margin-top: 70px;
   margin-right: -15px;
 }
-.sidebar .nav li a {
-  padding: 20px 28px;
-  color: white;
+.sidebar .nav li {
+  margin-top: 0;
 }
-.sidebar .nav li:hover a {
-  background-color: #7c96ad;
+.sidebar .nav li a {
+  border-radius: 0;
+  color: white;
+  padding: 20px 28px;
 }
 .sidebar .nav li.active a {
   color: #6c89a4 !important;
   background-color: #dae1e8 !important;
+}
+.sidebar .nav li:hover a {
+  background-color: #7c96ad;
+  color: white;
+}
+.sidebar .user-details {
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  min-height: 184px;
+}
+.sidebar .user-details .nav {
+  margin-top: 0;
+  margin-right: 15px;
+}
+.sidebar .user-details .spinner {
+  margin-bottom: 160px;
+  left: 0;
+  text-align: left;
+  margin-left: 38px;
+  margin-top: -5px;
+}
+.sidebar .user-details .avatar-and-name {
+  margin-left: 28px;
+  margin-right: 15px;
+  padding-right: 15px;
+  height: 50px;
+}
+.sidebar .user-details .avatar-and-name:before,
+.sidebar .user-details .avatar-and-name:after {
+  content: " ";
+  display: table;
+}
+.sidebar .user-details .avatar-and-name:after {
+  clear: both;
+}
+.sidebar .user-details .avatar-and-name:before,
+.sidebar .user-details .avatar-and-name:after {
+  content: " ";
+  display: table;
+}
+.sidebar .user-details .avatar-and-name:after {
+  clear: both;
+}
+.sidebar .user-details .avatar-and-name .name {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  display: flex;
+}
+.sidebar .user-details .avatar-and-name .avatar {
+  float: left;
+  margin-right: 1em;
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.content {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  overflow: scroll;
+  padding-right: 0;
 }
 .btn-row .btn {
   border-radius: 1px;
