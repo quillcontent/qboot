@@ -13,6 +13,8 @@
     "bootstrap": "3.3.4",
     "express": "^4.12.3",
     "jade": "^1.9.2",
+  },
+  "peerDependencies":  {
     "less": "^2.4.0"
   },
   "devDependencies": {
