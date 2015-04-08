@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "postinstall": "node_modules/less/bin/lessc less/qboot.less > build/qboot.css"
+    "postinstall": "lessc less/qboot.less > build/qboot.css"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +17,11 @@
   },
   "devDependencies": {
     "gulp": "^3.8.11",
+    "less": "^2.4.0",
     "gulp-less": "^3.0.2"
+  },
+  "peerDependencies": {
+    "less": "^2.4.0"
   },
   "engines": {
     "node": "0.10.x"
