@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "postinstall": "./node_modules/less/bin/lessc ./less/qboot.less > ./build/qboot.css"
+    "postinstall": "node_modules/less/bin/lessc less/qboot.less > build/qboot.css"
   },
   "author": "",
   "license": "ISC",
