@@ -1,1 +1,1 @@
-web: node server/index.js
+web: lessc less/qboot.less > build/qboot.css && node server/index.js
