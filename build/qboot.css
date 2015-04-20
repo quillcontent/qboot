@@ -6707,6 +6707,9 @@ i {
 .btn-row .btn:last-child {
   margin-right: 0;
 }
+.alert-danger {
+  color: white;
+}
 .content {
   height: 100%;
   min-height: 100%;
