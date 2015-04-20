@@ -1,0 +1,9 @@
+dependencies:
+  pre: 
+    - npm install less -g
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: quill-content
