@@ -5,7 +5,7 @@ var express = require('express'),
 app.set('views', 'server/views/');
 app.set('view engine', 'jade');
 
-app.use('/less', express.static(path.join(__dirname, '../build')));
+app.use('/', express.static(path.join(__dirname, '../build')));
 
 app.get('/', function(req, res, next) {
 	res.render('index');
