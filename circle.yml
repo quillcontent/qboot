@@ -6,4 +6,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: quill-content
+      appname: quill-style
