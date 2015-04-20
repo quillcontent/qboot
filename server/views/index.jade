@@ -17,6 +17,8 @@ html
 							a Buttons
 						li
 							a Forms
+						li 
+							a Alerts
 						li
 							a Tables
 					.user-details
@@ -69,26 +71,35 @@ html
 
 						section.clearfix
 							h1 Forms
-							form.col-sm-6
-								.form-group.has-error
-									label.control-label Email address
-									input.form-control
-								.form-group
-									label.control-label Password
-									input.form-control
-								.form-group
-									label.control-label title
-										select.form-control
-											option Mr
-											option Dr
-											option Miss
-											option Mrs
-											option Ms
-											option Sir
-								.form-group
-									label.control-label Some extended nonsense
-									textarea.form-control
-								input.btn.btn-primary(type="submit")
+							.row
+								form.col-sm-6
+									.form-group.has-error
+										label.control-label Email address
+										input.form-control
+									.form-group
+										label.control-label Password
+										input.form-control
+									.form-group
+										label.control-label title
+											select.form-control
+												option Mr
+												option Dr
+												option Miss
+												option Mrs
+												option Ms
+												option Sir
+									.form-group
+										label.control-label Some extended nonsense
+										textarea.form-control
+									input.btn.btn-primary(type="submit")
+
+						section
+							h1 Alerts
+							.alert.alert-success(role="alert") Success alert
+							.alert.alert-info(role="alert") Info alert
+							.alert.alert-warning(role="alert") Warning alert
+							.alert.alert-danger(role="alert") Danger alert
+
 						section
 							h1 Tables
 
