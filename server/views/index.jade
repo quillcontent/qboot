@@ -19,6 +19,8 @@ html
 							a(href="#labels") Labels
 						li
 							a(href="#forms") Forms
+						li 
+							a(href="dropdown") Dropdown
 						li
 							a(href="#alerts") Alerts
 						li
@@ -41,100 +43,15 @@ html
 										&nbsp;
 										= 'Logout'
 
-
-
-
-
 				.content.col-sm-10
 					.scroll
 						.page-header
 							h1 QBoot
 
-						section
-							h1#typography Typography
-							h1 Header 1
-							h2 Header 2
-							h3 Header 3
-							h4 Header 4
-							p.
-								Bacon ipsum dolor amet tempor ribeye nostrud adipisicing short loin quis commodo short ribs ex mollit rump brisket sed ipsum. Deserunt pork belly nulla, pork bacon shankle dolore fatback pariatur. Reprehenderit mollit consequat id. Boudin sed drumstick, laboris fugiat strip steak flank dolore ipsum venison duis capicola veniam.
-							p.
-								Lorem <i>aliqua enim, boudin veniam corned beef pork belly salami.</i> Labore spare ribs ut tenderloin meatloaf pork loin prosciutto cow chicken excepteur pig fatback exercitation. Non officia excepteur t-bone tenderloin irure tail dolor nostrud. Turducken filet mignon magna sausage occaecat. Dolore in et reprehenderit dolor in cupim aliquip.
-							p.
-								Pariatur aliqua mollit, kielbasa magna biltong jowl excepteur rump hamburger ut flank boudin est. Pork fatback ut fugiat pork belly porchetta biltong elit beef ribs et excepteur laborum sausage kevin. In est nostrud pork chop, porchetta jowl ut doner dolor pancetta meatball dolore. Pork magna ipsum adipisicing ham hock sed est pancetta tempor ad deserunt chicken et nisi. Doner quis adipisicing, frankfurter salami duis commodo ham hock cupim dolore do pork chop short loin. Officia doner chuck exercitation, pork chop sunt reprehenderit non ipsum dolore ex enim shankle eu.
-
-						section
-							h1#buttons Buttons
-							.btn-row
-								a.btn.btn-default Default
-								a.btn.btn-primary Primary
-								a.btn.btn-success Success
-								a.btn.btn-info Info
-								a.btn.btn-warning Warning
-								a.btn.btn-danger Danger
-								a.btn.btn-primary.btn-lg Large
-								a.btn.btn-primary.btn-sm Small
-								a.btn.btn-primary.btn-xs Extra small
-
-						section
-							h1#labels Labels
-							span.label.label-default Default label
-							&nbsp;
-							span.label.label-primary Primary label
-							&nbsp;
-							span.label.label-success Complete label
-							&nbsp;
-							span.label.label-info In progress label
-							&nbsp;
-							span.label.label-warning In review label
-							&nbsp;
-							span.label.label-danger Rejected label
-
-						section
-							h1#alerts Alerts
-							.alert.alert-success(role="alert") Success alert
-							.alert.alert-info(role="alert") Info alert
-							.alert.alert-warning(role="alert") Warning alert
-							.alert.alert-danger(role="alert") Danger alert
-
-						section.clearfix
-							h1#forms Forms
-							.row
-								form.col-sm-6
-									.form-group.has-error
-										label.control-label Email address
-										input.form-control
-									.form-group
-										label.control-label Password
-										input.form-control
-									.form-group
-										label.control-label title
-											select.form-control
-												option Mr
-												option Dr
-												option Miss
-												option Mrs
-												option Ms
-												option Sir
-									.form-group
-										label.control-label Some extended nonsense
-										textarea.form-control
-									input.btn.btn-primary(type="submit")
-
-						section
-							h1#tables Tables
-
-							table.table
-								thead
-									tr
-										th First name
-										th Last name
-								tbody
-									tr
-										td Bob
-										td Jenny
-									tr
-										td Chris
-										td Smith
-
-
+						include ./partials/typography
+						include ./partials/buttons
+						include ./partials/labels
+						include ./partials/alerts
+						include ./partials/forms
+						include ./partials/dropdown-menu
+						include ./partials/tables

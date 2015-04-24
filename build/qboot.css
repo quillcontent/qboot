@@ -6714,3 +6714,24 @@ i {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+.btn-group.dropdown .dropdown-toggle {
+  background: none;
+  border: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-group.dropdown .dropdown-toggle:hover,
+.btn-group.dropdown .dropdown-toggle:active {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-group.dropdown .fa {
+  color: #777777;
+}
+.btn-group.dropdown .dropdown-menu {
+  margin-top: -3px;
+}
+.btn-group.dropdown.dropup .dropdown-menu {
+  margin-bottom: -3px;
+}
