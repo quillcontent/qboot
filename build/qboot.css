@@ -6717,6 +6717,9 @@ select {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+dl.dl-horizontal dt {
+  text-align: left;
+}
 .btn-group.dropdown .dropdown-toggle {
   background: none;
   border: 0px;
