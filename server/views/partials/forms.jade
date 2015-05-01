@@ -1,23 +1,35 @@
 section.clearfix
-h1#forms Forms
-.row
-  form.col-sm-6
-    .form-group.has-error
-      label.control-label Email address
-      input.form-control
+  h1#forms Forms
+  .row
+    form.col-sm-6
+      .form-group.has-error
+        label.control-label Email address
+        input.form-control
+      .form-group
+        label.control-label Password
+        input.form-control
+      .form-group
+        label.control-label title
+          select.form-control
+            option Mr
+            option Dr
+            option Miss
+            option Mrs
+            option Ms
+            option Sir
+      .form-group
+        label.control-label Some extended nonsense
+        textarea.form-control
+      input.btn.btn-primary(type="submit")
+  h2 Inline forms
+  form.form-horizontal
     .form-group
-      label.control-label Password
-      input.form-control
+      label.control-label.col-sm-2 Name
+      .col-sm-6
+        input.form-control
     .form-group
-      label.control-label title
-        select.form-control
-          option Mr
-          option Dr
-          option Miss
-          option Mrs
-          option Ms
-          option Sir
-    .form-group
-      label.control-label Some extended nonsense
-      textarea.form-control
-    input.btn.btn-primary(type="submit")
+      label.control-label.col-sm-2 State of the £
+      .col-sm-6
+        textarea.form-control
+
+
