@@ -6564,9 +6564,6 @@ button.close {
 i {
   font-family: "Akkurat-Lightitalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.avatar {
-  border-radius: 1000px;
-}
 .table {
   margin-bottom: 0;
 }
@@ -6740,4 +6737,76 @@ dl.dl-horizontal dt {
 }
 .btn-group.dropdown.dropup .dropdown-menu {
   margin-bottom: -3px;
+}
+.mts {
+  margin-top: 15pxpx;
+}
+.mrs {
+  margin-right: 15pxpx;
+}
+.mbs {
+  margin-bottom: 15pxpx;
+}
+.mls {
+  margin-left: 15pxpx;
+}
+.mtm {
+  margin-top: 30pxpx;
+}
+.mrm {
+  margin-right: 30pxpx;
+}
+.mbm {
+  margin-bottom: 30pxpx;
+}
+.mlm {
+  margin-left: 30pxpx;
+}
+.mtl {
+  margin-top: 37.5pxpx;
+}
+.mrl {
+  margin-right: 37.5pxpx;
+}
+.mbl {
+  margin-right: 37.5pxpx;
+}
+.mll {
+  margin-right: 37.5pxpx;
+}
+.pts {
+  padding-top: 15pxpx;
+}
+.prs {
+  padding-right: 15pxpx;
+}
+.pbs {
+  padding-bottom: 15pxpx;
+}
+.pls {
+  padding-left: 15pxpx;
+}
+.ptm {
+  padding-top: 30pxpx;
+}
+.prm {
+  padding-right: 30pxpx;
+}
+.pbm {
+  padding-bottom: 30pxpx;
+}
+.plm {
+  padding-left: 30pxpx;
+}
+.ptl {
+  padding-top: 37.5pxpx;
+}
+.prl {
+  padding-right: 37.5pxpx;
+}
+.pbl {
+  padding-right: 37.5pxpx;
+}
+.pll {
+  padding-right: 37.5pxpx;
 }
