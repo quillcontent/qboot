@@ -6564,9 +6564,6 @@ button.close {
 i {
   font-family: "Akkurat-Lightitalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.avatar {
-  border-radius: 1000px;
-}
 .table {
   margin-bottom: 0;
 }
@@ -6740,4 +6737,76 @@ dl.dl-horizontal dt {
 }
 .btn-group.dropdown.dropup .dropdown-menu {
   margin-bottom: -3px;
+}
+.mts {
+  margin-top: 15px;
+}
+.mrs {
+  margin-right: 15px;
+}
+.mbs {
+  margin-bottom: 15px;
+}
+.mls {
+  margin-left: 15px;
+}
+.mtm {
+  margin-top: 30px;
+}
+.mrm {
+  margin-right: 30px;
+}
+.mbm {
+  margin-bottom: 30px;
+}
+.mlm {
+  margin-left: 30px;
+}
+.mtl {
+  margin-top: 37.5px;
+}
+.mrl {
+  margin-right: 37.5px;
+}
+.mbl {
+  margin-right: 37.5px;
+}
+.mll {
+  margin-right: 37.5px;
+}
+.pts {
+  padding-top: 15px;
+}
+.prs {
+  padding-right: 15px;
+}
+.pbs {
+  padding-bottom: 15px;
+}
+.pls {
+  padding-left: 15px;
+}
+.ptm {
+  padding-top: 30px;
+}
+.prm {
+  padding-right: 30px;
+}
+.pbm {
+  padding-bottom: 30px;
+}
+.plm {
+  padding-left: 30px;
+}
+.ptl {
+  padding-top: 37.5px;
+}
+.prl {
+  padding-right: 37.5px;
+}
+.pbl {
+  padding-right: 37.5px;
+}
+.pll {
+  padding-right: 37.5px;
 }
