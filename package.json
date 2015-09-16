@@ -1,6 +1,6 @@
 {
   "name": "qboot",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,6 @@
     "gulp": "^3.8.11",
     "less": "^2.4.0",
     "gulp-less": "^3.0.2"
-  },
-  "peerDependencies": {
-    "less": "^2.4.0"
   },
   "engines": {
     "node": "0.10.x"
