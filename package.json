@@ -10,17 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "3.3.4",
-    "express": "^4.12.3",
-    "jade": "^1.9.2",
-    "less": "^2.4.0"
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
   },
   "devDependencies": {
-    "gulp": "^3.8.11",
-    "less": "^2.4.0",
-    "gulp-less": "^3.0.2"
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "less": "^2.7.1"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "6.5.0"
   }
 }

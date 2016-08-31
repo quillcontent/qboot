@@ -3,7 +3,7 @@ var express = require('express'),
     app = express();
 
 app.set('views', 'server/views/');
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 app.use('/', express.static(path.join(__dirname, '../build')));
 
